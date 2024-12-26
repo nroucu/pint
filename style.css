@@ -52,3 +52,59 @@ align-items: center;
     color: brown;
 }
 
+.btn2{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn2 button{
+    width: 80px;
+    height: 30px;
+    border:none ;
+    background-color:brown ;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn2 button:hover{
+    border: 1px solid brown;
+    background-color: white;
+    color: brown;
+}
+
+.sign{
+    border: 3px solid;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    height: 220px;
+    color: brown;
+    background-color: rgb(244, 242, 242);
+}
+
+.sign input{
+    width:280px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    height: 25px;
+}
+.sectione1{
+    width: 1200px;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.456);
+    display: none;
+}
+.sectione2{
+    width: 1200px;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.456);
+    display: none;
+}
